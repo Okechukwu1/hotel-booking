@@ -6,9 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc1ae0fb-c81c-4952-b88d-5f391fba6090" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/MainTest.java" afterPath="" />
-    </list>
+    <list default="true" id="dc1ae0fb-c81c-4952-b88d-5f391fba6090" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,45 +28,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HotelBookingTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HotelBookingTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/test/HotelBookingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="36" column="39" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="100">
+              <caret line="5" column="47" lean-forward="true" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="-15594">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#31385#31391#0" expanded="true" />
-                <element signature="e#31412#31418#0" expanded="true" />
-                <element signature="e#31832#31838#0" expanded="true" />
-                <element signature="e#31855#31859#0" expanded="true" />
-                <element signature="e#31861#31867#0" expanded="true" />
-                <element signature="e#32074#32080#0" expanded="true" />
-                <element signature="e#32085#32091#0" expanded="true" />
-                <element signature="e#32110#32116#0" expanded="true" />
-                <element signature="e#32121#32127#0" expanded="true" />
-                <element signature="e#32333#32339#0" expanded="true" />
-                <element signature="e#32344#32350#0" expanded="true" />
-                <element signature="e#32369#32375#0" expanded="true" />
-                <element signature="e#32380#32386#0" expanded="true" />
-                <element signature="e#32603#32609#0" expanded="true" />
-                <element signature="e#32626#32630#0" expanded="true" />
-                <element signature="e#32632#32638#0" expanded="true" />
-                <element signature="e#32845#32851#0" expanded="true" />
-                <element signature="e#32856#32862#0" expanded="true" />
-                <element signature="e#32881#32887#0" expanded="true" />
-                <element signature="e#32892#32898#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -196,11 +171,6 @@
             <path>
               <item name="hotele2e" type="b2602c69:ProjectViewProjectNode" />
               <item name="hotele2e" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hotele2e" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hotele2e" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hotele2e" type="b2602c69:ProjectViewProjectNode" />
@@ -453,9 +423,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HotelBookingTest - 2018.06.27 at 21h 53m 51s.xml">
-      <configuration name="HotelBookingTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="HotelBookingTest - 2018.06.27 at 21h 55m 26s.xml">
       <configuration name="HotelBookingTest" configurationId="JUnit" />
     </history-entry>
@@ -481,6 +448,9 @@
       <configuration name="HotelBookingTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="HotelBookingTest - 2018.06.27 at 22h 07m 58s.xml">
+      <configuration name="HotelBookingTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HotelBookingTest - 2018.06.27 at 23h 25m 29s.xml">
       <configuration name="HotelBookingTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -796,35 +766,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#31385#31391#0" expanded="true" />
-            <element signature="e#31412#31418#0" expanded="true" />
-            <element signature="e#31832#31838#0" expanded="true" />
-            <element signature="e#31855#31859#0" expanded="true" />
-            <element signature="e#31861#31867#0" expanded="true" />
-            <element signature="e#32074#32080#0" expanded="true" />
-            <element signature="e#32085#32091#0" expanded="true" />
-            <element signature="e#32110#32116#0" expanded="true" />
-            <element signature="e#32121#32127#0" expanded="true" />
-            <element signature="e#32333#32339#0" expanded="true" />
-            <element signature="e#32344#32350#0" expanded="true" />
-            <element signature="e#32369#32375#0" expanded="true" />
-            <element signature="e#32380#32386#0" expanded="true" />
-            <element signature="e#32603#32609#0" expanded="true" />
-            <element signature="e#32626#32630#0" expanded="true" />
-            <element signature="e#32632#32638#0" expanded="true" />
-            <element signature="e#32845#32851#0" expanded="true" />
-            <element signature="e#32856#32862#0" expanded="true" />
-            <element signature="e#32881#32887#0" expanded="true" />
-            <element signature="e#32892#32898#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/MainTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
@@ -847,11 +788,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/test/HotelBookingTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="36" column="39" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="100">
+          <caret line="5" column="47" lean-forward="true" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15594">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
