@@ -57,4 +57,20 @@ public class HotelBookingTest {
         homePage.dummyFirstNameDoesNotExist();
     }
 
+    @Test
+    public void testWithWrongDataTypeForTheFreeTextFields() {
+        homePage = new HotelBookingPage(driver);
+        homePage.navigateToHomePage();
+        homePage.setFirstName("124586");
+        homePage.setLastName("298697");
+        homePage.setPrice("wrong");
+        homePage.setDepositStatus("true");
+        homePage.setCheckInDate("20");
+        homePage.setCheckOutDate("23");
+        homePage.saveBooking();
+        homePage.doesDummyFirstNameExists();
+        homePage.deleteBooking();
+        homePage.dummyFirstNameDoesNotExist();
+    }
+
 }
