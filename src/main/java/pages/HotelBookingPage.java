@@ -62,8 +62,7 @@ public class HotelBookingPage extends AbstractPage {
         List <WebElement> daySelector = driver.findElements(By.cssSelector("tbody tr td"));
         daySelector
                 .stream()
-                .filter(e -> e.getText()
-                 .equals(inDate))
+                .filter(e -> e.getText().equals(inDate))
                 .findFirst()
                 .ifPresent(WebElement::click);
     }

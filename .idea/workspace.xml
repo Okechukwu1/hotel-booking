@@ -7,11 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc1ae0fb-c81c-4952-b88d-5f391fba6090" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HotelBookingPage.java" afterPath="$PROJECT_DIR$/src/main/java/pages/HotelBookingPage.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/test/HotelBookingTest.java" afterPath="$PROJECT_DIR$/src/main/java/test/HotelBookingTest.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/HotelBookingPage.class" afterPath="$PROJECT_DIR$/target/classes/pages/HotelBookingPage.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/HotelBookingTest.class" afterPath="$PROJECT_DIR$/target/classes/test/HotelBookingTest.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HotelBookingTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HotelBookingTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/test/HotelBookingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="37" column="36" lean-forward="false" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
+            <state relative-caret-position="150">
+              <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,7 +87,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HotelBookingPage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HotelBookingPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/HotelBookingPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="116">
@@ -156,8 +152,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/pages/AbstractPage.java" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/main/java/test/HotelBookingTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/HotelBookingPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/HotelBookingTest.java" />
       </list>
     </option>
   </component>
@@ -292,7 +288,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HotelBookingTest">
+  <component name="RunManager" selected="JUnit.HotelBookingTest.testWithWrongDataTypeForTheFreeTextFields">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -496,8 +492,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.HotelBookingTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.HotelBookingTest.testWithWrongDataTypeForTheFreeTextFields" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.HotelBookingTest.testWithWrongDataTypeForTheFreeTextFields" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.HotelBookingTest" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.HotelBookingTest.testHotelBookingFormWithInvalidData" />
         <item index="3" class="java.lang.String" itemvalue="Application.MainTest" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.Test" />
@@ -547,13 +543,13 @@
     <history-entry file="HotelBookingTest - 2018.07.01 at 16h 46m 31s.xml">
       <configuration name="HotelBookingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HotelBookingTest_testHotelBookingFormWithInvalidData - 2018.07.01 at 15h 39m 08s.xml">
-      <configuration name="HotelBookingTest.testHotelBookingFormWithInvalidData" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HotelBookingTest_testWithWrongDataTypeForTheFreeTextFields - 2018.07.01 at 15h 43m 21s.xml">
-      <configuration name="HotelBookingTest.testWithWrongDataTypeForTheFreeTextFields" configurationId="JUnit" />
+    <history-entry file="HotelBookingTest - 2018.07.01 at 16h 49m 39s.xml">
+      <configuration name="HotelBookingTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="HotelBookingTest_testWithWrongDataTypeForTheFreeTextFields - 2018.07.01 at 15h 50m 06s.xml">
+      <configuration name="HotelBookingTest.testWithWrongDataTypeForTheFreeTextFields" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HotelBookingTest_testWithWrongDataTypeForTheFreeTextFields - 2018.07.01 at 16h 52m 17s.xml">
       <configuration name="HotelBookingTest.testWithWrongDataTypeForTheFreeTextFields" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -579,7 +575,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2730159" sideWeight="0.5045386" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290469" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36825398" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36825398" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2952381" sideWeight="0.49546143" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -632,13 +628,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/test/HotelBookingTest.java</url>
-          <line>55</line>
+          <line>54</line>
           <properties />
           <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/test/HotelBookingTest.java</url>
-          <line>70</line>
+          <line>69</line>
           <properties />
           <option name="timeStamp" value="50" />
         </line-breakpoint>
@@ -1070,16 +1066,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/HotelBookingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="37" column="36" lean-forward="false" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/HotelBookingPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
@@ -1088,6 +1074,16 @@
             <element signature="imports" expanded="true" />
             <element signature="e#1053#1054#0" expanded="true" />
             <element signature="e#1082#1083#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/HotelBookingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
