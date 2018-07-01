@@ -69,6 +69,7 @@ public class HotelBookingTest {
         homePage.setCheckInDate("20");
         homePage.setCheckOutDate("23");
         homePage.saveBooking();
+        homePage.doesDummyFirstNameExists();
         homePage.deleteBooking();
         homePage.dummyFirstNameDoesNotExist();
     }

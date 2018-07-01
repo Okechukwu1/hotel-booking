@@ -16,7 +16,7 @@ public class AbstractPage {
 
     public HotelBookingPage navigateToHomePage(){
         driver.navigate().to("http://hotel-test.equalexperts.io/");
-        driver.manage().window().fullscreen();
+       // driver.manage().window().fullscreen();
         return new HotelBookingPage(driver);
     }
 

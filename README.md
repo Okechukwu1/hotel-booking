@@ -1,4 +1,4 @@
 # hotele2e
 
 ### Running tests
-To run the tests run the 'HotelBooking'
+To run the tests run the 'HotelBookingTest'
