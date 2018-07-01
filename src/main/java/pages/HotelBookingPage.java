@@ -20,8 +20,6 @@ public class HotelBookingPage extends AbstractPage {
     private static final String DEPOSIT_ID = "depositpaid";
     private static final String CHECK_IN_ID = "checkin";
     private static final String CHECK_OUT_ID = "checkout";
-    private static final String CHECK_IN_DATE_SELECTOR = "#ui-datepicker-div > table > tbody > tr:nth-child(4) > td:nth-child(3) > a";
-    private static final String CHECK_OUT_DATE_SELECTOR = "#ui-datepicker-div > table > tbody > tr:nth-child(4) > td:nth-child(4) > a";
     private static final String SAVE_SELECTOR = "#form > div > div:nth-child(7) > input[type=\"button\"]";
 
     public HotelBookingPage(WebDriver driver) {
@@ -50,7 +48,7 @@ public class HotelBookingPage extends AbstractPage {
         WebElement depositElement = driver.findElement(By.id(DEPOSIT_ID));
         Select select = new Select(depositElement);
 
-        if (status == "true") {
+        if (status.equals("true")) {
             select.selectByVisibleText("true");
         } else {
             select.selectByVisibleText("false");
@@ -60,13 +58,25 @@ public class HotelBookingPage extends AbstractPage {
     public void setCheckInDate(final String inDate) {
         WebElement checkInElement = driver.findElement(By.id(CHECK_IN_ID));
         checkInElement.click();
-        driver.findElement(By.cssSelector(CHECK_IN_DATE_SELECTOR)).click();
+
+        List <WebElement> daySelector = driver.findElements(By.cssSelector("tbody tr td"));
+        daySelector
+                .stream()
+                .filter(e -> e.getText()
+                 .equals(inDate))
+                .findFirst()
+                .ifPresent(WebElement::click);
     }
 
     public void setCheckOutDate(final String outDate) {
         WebElement checkOutElement = driver.findElement(By.id(CHECK_OUT_ID));
         checkOutElement.click();
-        driver.findElement(By.cssSelector(CHECK_OUT_DATE_SELECTOR)).click();
+
+        List <WebElement> daySelector = driver.findElements(By.cssSelector("tbody tr td"));
+        daySelector.stream()
+                .filter(e -> e.getText().equals(outDate))
+                .findFirst()
+                .ifPresent(WebElement::click);
     }
 
     public void saveBooking() {
@@ -76,7 +86,7 @@ public class HotelBookingPage extends AbstractPage {
 
     public boolean doesDummyFirstNameExists() {
         WebDriverWait wait = new WebDriverWait(driver, 10);
-        wait/*.ignoring(NoSuchElementException.class)*/.until(ExpectedConditions
+        wait.ignoring(NoSuchElementException.class).until(ExpectedConditions
                 .visibilityOfElementLocated(By.cssSelector("div:nth-child(1) > p")));
         return true;
     }

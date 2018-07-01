@@ -34,8 +34,8 @@ public class HotelBookingTest {
         homePage.setLastName("Tester");
         homePage.setPrice("50");
         homePage.setDepositStatus("true");
-        homePage.setCheckInDate("20");
-        homePage.setCheckOutDate("23");
+        homePage.setCheckInDate("27");
+        homePage.setCheckOutDate("28");
         homePage.saveBooking();
         homePage.doesDummyFirstNameExists();
         homePage.deleteBooking();
@@ -50,8 +50,8 @@ public class HotelBookingTest {
         homePage.setLastName("3231646796565764645475nnhchfheyejhhddhbdfdhdbdhjsh76433451574541662251545454");
         homePage.setPrice("505554646616451515142441515");
         homePage.setDepositStatus("true");
-        homePage.setCheckInDate("20");
-        homePage.setCheckOutDate("23");
+        homePage.setCheckInDate("5");
+        homePage.setCheckOutDate("10");
         homePage.saveBooking();
         homePage.doesDummyFirstNameExists();
         homePage.deleteBooking();
@@ -66,10 +66,10 @@ public class HotelBookingTest {
         homePage.setLastName("298697");
         homePage.setPrice("wrong");
         homePage.setDepositStatus("true");
-        homePage.setCheckInDate("20");
+        homePage.setCheckInDate("18");
         homePage.setCheckOutDate("23");
         homePage.saveBooking();
-        homePage.doesDummyFirstNameExists();
+       // homePage.doesDummyFirstNameExists();
         homePage.deleteBooking();
         homePage.dummyFirstNameDoesNotExist();
     }
