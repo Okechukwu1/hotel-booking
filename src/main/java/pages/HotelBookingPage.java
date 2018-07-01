@@ -76,7 +76,7 @@ public class HotelBookingPage extends AbstractPage {
 
     public boolean doesDummyFirstNameExists() {
         WebDriverWait wait = new WebDriverWait(driver, 10);
-        wait.ignoring(NoSuchElementException.class).until(ExpectedConditions
+        wait/*.ignoring(NoSuchElementException.class)*/.until(ExpectedConditions
                 .visibilityOfElementLocated(By.cssSelector("div:nth-child(1) > p")));
         return true;
     }
@@ -90,13 +90,10 @@ public class HotelBookingPage extends AbstractPage {
 
     public void deleteBooking() {
         List<WebElement> deleteButtons = driver.findElements(By.cssSelector("input[value='Delete']"));
-
-        for (WebElement element : deleteButtons) {
-                if (element.getAttribute("value").equalsIgnoreCase("Delete"))
-                  {
-                    element.click();
-                }
-            }
+        deleteButtons
+                .stream()
+                .filter(e -> e.getAttribute("value").equalsIgnoreCase("Delete"))
+                .forEach(WebElement::click);
         }
     }
 
